@@ -1,5 +1,5 @@
 import React from 'react';
-import MyResume from '../images/';
+import MyResume from '../images/Elias-Vasquez-Resume.pdf';
 
 export default function Navbar({ fixed, currentPage, handlePageChange }) {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);

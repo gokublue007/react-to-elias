@@ -8,7 +8,7 @@ const FooterComponent = () => {
 		<div className="relative mt-3">
 			<footer className="md:fixed md:bottom-0 md:left-0 md:right-0 flex flex-wrap items-center justify-center px-2 py-3 bg-neutral-800">
 				<a
-					href="https://github.com/mahiv87"
+					href="https://github.com/gokublue007"
 					target="_blank"
 					rel="noreferrer noopener"
 					className="hover:opacity-75"
@@ -16,7 +16,7 @@ const FooterComponent = () => {
 					<img className="h-10 px-2" alt="GitHub logo" src={GitHub} />
 				</a>
 				<a
-					href="https://twitter.com/mahiv87"
+					href="https://twitter.com/gokublack007"
 					target="_blank"
 					rel="noreferrer noopener"
 					className="hover:opacity-75"
@@ -28,7 +28,7 @@ const FooterComponent = () => {
 					/>
 				</a>
 				<a
-					href="https://www.linkedin.com/in/marcus-herrera-74453b227/"
+					href="https://www.linkedin.com/in/elias-vasquez-b4a516185/"
 					target="_blank"
 					rel="noreferrer noopener"
 					className="hover:opacity-75"

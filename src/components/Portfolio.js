@@ -9,7 +9,7 @@ import TechBlog from '../images/Tech-Blog-dt.png';
 const Portfolio = () => {
 	const projects = [
 		{
-			name: 'Egineers_Tech_Blog',
+			name: 'Engineers_Tech_Blog',
 			image: TechBlog,
 			repoLink: 'https://github.com/gokublue007/Engineers-Tech-Blog',
 			deployedApp: 'https://fierce-reef-90500.herokuapp.com/'
