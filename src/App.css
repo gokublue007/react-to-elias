@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+	width: 100%;
+}
+
+.about {
+	min-height: calc(100vh - 200px);
+}
+
+.glass-container {
+	width: max(360px, 60%);
+	height: auto;
+	padding: 2rem;
+	color: white;
+	gap: 20px;
+	border-radius: 10px;
+	backdrop-filter: blur(5px);
+	background-color: rgba(102, 102, 102, 0.075);
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+	border: 2px rgba(255, 255, 255, 0.4) solid;
+	border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+	border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+.glass-container-profile {
+	width: 20rem;
+	height: auto;
+	border: solid 1px #000;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.project-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-auto-rows: 1fr;
+	gap: 1rem 1rem;
+	grid-auto-flow: row;
+}
+
+.project-card {
+	@apply glass-container mx-auto md:grayscale hover:grayscale-0;
+}
+
+.project-link {
+	@apply px-3 py-1 flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 underline-animation;
+}
+
+.underline-animation:hover {
+	width: 0%;
+	animation: hover 500ms ease-in-out 0s 1 normal none;
+}
+
+@keyframes hover {
+	0.0% {
+		border-bottom: 1px solid white;
+		width: 0%;
+	}
+	50% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}
+
+.contact-input {
+	@apply mt-0 w-full px-0.5 border-0 border-b border-gray-200 focus:ring-0 focus:border-white text-white bg-neutral-800 bg-opacity-0;
+}
