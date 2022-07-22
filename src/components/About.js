@@ -16,9 +16,9 @@ const About = () => {
 						About_Me
 					</h2>
 					<p id="lorem_text" className=" indent-6">
-						Hello, My name is Eli! I'm a Full Stack Developer based in Denver, CO.
-						My journey began in February of 2022, after 7 years in the Auto Industry. 
-                        I worked in sales for the industry, was recognized as a top 3 best performance saleman within the company! 
+						Hello, My name is Eli! I'm a Colorado native, based in Denver, Colorado!
+						My journey began in February of 2022 for the Full Stack Developer career after ending my 7 year sales career for Toyota. 
+                        I worked in the industry and was recognized as a top 3 best performance saleman within the company for 5 out of my 7 years of working in the in! 
 					</p>
 				</div>
 			</div>
