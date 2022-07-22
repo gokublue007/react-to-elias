@@ -15,10 +15,10 @@ const About = () => {
 					<h2 id="glass_title" className="text-2xl pb-2 uppercase">
 						About_Me
 					</h2>
-					<p id="lorem_text" className=" indent-6">
+					<p id="lorem_text" className=" indent-2">
 						Hello, My name is Eli! I'm a Colorado native, based in Denver, Colorado!
 						My journey began in February of 2022 for the Full Stack Developer career after ending my 7 year sales career for Toyota. 
-                        I worked in the industry and was recognized as a top 3 best performance saleman within the company for 5 out of my 7 years of working in the in!          ! 
+                        I worked in the industry and was recognized as a top 3 best performance saleman within the company for 5 out of my 7 years of working in the in!
 					</p>
 				</div>
 			</div>
